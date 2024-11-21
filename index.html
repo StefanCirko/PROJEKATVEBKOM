@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Museum of Tanks</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/1693487.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="nav-bar">
+            <ul class="nav-item">
+                <li>
+                    <a class="selektovano" href="index.html">Početna</a>
+                </li>
+                <li>
+                    <a href="tenkovi.html">Tenkovi</a>
+                </li>
+                <li>
+                    <a href="slike.html">Galerija</a>
+                </li>
+                <li>
+                    <a href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+
+        <img src="images/1693487.png" id="animacija">
+        
+        <div class="pocetna-stranica" id="paragraf" onclick="tabelaTenkova(1)" onmouseover="promenaStila(1)" onmouseout="promenaStila(2)">
+            <p>Dobro došli na stranicu "Museum of Tanks"! Ova stranica će vam pružiti informacije od tenkovima Drugog svetskog rata kao i njihove slike.
+                Ukoliko nas želite kontaktirati ili nam postaviti pitanje možete to učiniti na "Kontakt" stranici. Šta je tenk? Tenk je oklopno vojno vozilo na gusenicama 
+                koje služi za potporu pešadiji ili deluje samostalno. 
+                Ima glavni top velikog kalibra koji se nalazi na pokretnoj kupoli.
+                Svojim oklopom štiti posadu, a ima mogućnost kretanja po teškim terenima. Glavno je strateško i taktičko oružje u kopnenoj vojsci.
+            </p> 
+        </div>
+        <img src="images/tiger1.png" id="tigar1" onclick="tabelaTenkova(2)"><br>
+        <div class="tabela" id="tabela"></div>
+        <script src="script.js"></script>
+    </body>
+</html>

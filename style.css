@@ -1,0 +1,274 @@
+body{
+    background-color: darkolivegreen;
+}
+.nav-bar{
+    margin: -10px;
+}
+.nav-item{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(84, 150, 84);
+}
+.nav-item li {
+    float: left;
+    display: inline;
+}
+.nav-item li a {
+    display: block;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: white;
+}
+.nav-item li a:hover{
+    background-color: darkgreen;
+    transition: 0.5s ease;
+}
+.selektovano{
+    background-color: rgb(0, 77, 0);
+}
+.forma{
+    text-align: center;
+}
+.forma h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+.forma #ime{
+    width: 15%;
+    margin: 7px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.forma #e-mail{
+    width: 15%;
+    margin: 7px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.forma #textbox{
+    width: 30%;
+    margin: 7px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.forma label{
+    color: white;
+    font-size: 20px;
+}
+.forma #dugme{
+    width: 10%;
+    background-color: #63ac65;
+    color: white;
+    padding: 15px 18px;
+    margin: 10px 0;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.forma #dugme:hover{
+    background: rgb(64, 94, 64);
+}
+#animacija{
+    height: 120px;
+    animation-name: tenkic;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes tenkic {
+    from{
+        transform: translateX(1750px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+.pocetna-stranica{
+    margin: 0px 325px;
+    text-align: center;
+    font-size: 25px;
+    color: lightgray;
+}
+#tigar1{
+    display: flex;
+    margin: auto;
+    opacity: 65%;
+}
+#tigar1:hover{
+    opacity: 90%;
+    transition: 0.1s ease-in-out;
+}
+.soviet-union{
+    text-align: center;
+    color: white;
+}
+.soviet-union p{
+    font-size: 15px;
+    margin: 15px 450px;
+}
+.soviet-union img{
+    opacity: 85%;
+}
+.USA{
+    text-align: center;
+    color: white;
+}
+.USA p{
+    font-size: 15px;
+    margin: 15px 450px;
+}
+.USA img{
+    width: 35%;
+    opacity: 75%;
+    filter: grayscale(100%);
+}
+.Germany{
+    text-align: center;
+    color: white;
+}
+.Germany p{
+    font-size: 15px;
+    margin: 15px 450px;
+}
+.Germany img{
+    width: 35%;
+    opacity: 75%;
+    filter: grayscale(100%);
+}
+.UK{
+    text-align: center;
+    color: white;
+}
+.UK p{
+    font-size: 15px;
+    margin: 15px 450px;
+}
+.UK img{
+    width: 35%;
+    opacity: 70%;
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+    .nav-bar{
+        margin: -10px;
+    }
+    .nav-item{
+        list-style-type: none;
+        margin: 0px;       
+        padding: 0px;
+        overflow: hidden;
+        background-color: rgb(84, 150, 84);
+    }
+    .nav-item li {
+        float: left;
+        display: block;
+    }
+    .nav-item li a {
+        display: block;
+        padding: 20px 10px;
+        text-decoration: none;
+        color: white;
+    }
+    .nav-item li a:hover{
+        background-color: darkgreen;
+        transition: 0.5s ease;
+    }
+    .pocetna-stranica{
+        margin: 0px 25px;
+        text-align: center;
+        font-size: 18px;
+        color: lightgray;
+    }
+    #tigar1{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        opacity: 65%;
+    }
+    #tigar1:hover{
+        opacity: 90%;
+        transition: 0.1s ease-in-out;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .nav-bar{
+        margin: -10px;
+        margin-right: -40px;
+    }
+    .nav-item{
+        list-style-type: none;
+        margin: 0px;
+        padding: 10px;
+        overflow: hidden;
+        background-color: rgb(84, 150, 84);
+    }
+    .nav-item li {
+        float: left;
+        display: inline;
+    }
+    .nav-item li a {
+        display: block;
+        padding: 20px 25px;
+        text-decoration: none;
+        color: white;
+    }
+    .nav-item li a:hover{
+        background-color: darkgreen;
+        transition: 0.5s ease;
+    }
+    .pocetna-stranica{
+        margin: 0px 125px;
+        text-align: center;
+        font-size: 25px;
+        color: lightgray;
+    }
+    #tigar1{
+        width: 90%;
+        display: flex;
+        margin: auto;
+        opacity: 65%;
+    }
+    #tigar1:hover{
+        opacity: 90%;
+        transition: 0.1s ease-in-out;
+    }
+}
+.galerija{
+    text-align: center;
+    color:white;
+}
+.galerija h1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.galerija img{
+    filter: grayscale(100%);
+    opacity: 80%;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.galerija img:hover{
+    filter: grayscale(50%);
+    opacity: 100%;
+}
+.vreme{
+    width: 10%;
+    background-color: #63ac65;
+    color: white;
+    padding: 15px 18px;
+    margin: 10px 0;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
