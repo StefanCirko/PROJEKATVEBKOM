@@ -28,11 +28,11 @@ function tabelaTenkova(y){
         poruka = alert("Klikni na sliku kako bi dobio ispis tabele koja sadrzi tenkove");
     }
     else if (y == 2){
-        let tabelat="<table border=1><tr><th>Tenkovi u WW2</th></tr>"
+        let tabelat="<table border=1><tr><th>Tenkovi u WW2</th></tr>";
         for (let i=0;i<tenkovi.length;i++){
             tabelat+="<tr><td>" + tenkovi[i] + "</td></tr>";
         }
-        tabelat+="</table>"
+        tabelat+="</table>";
         return tabela.innerHTML=tabelat;
     }
 }

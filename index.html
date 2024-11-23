@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Museum of Tanks</title>
+        <title>Muzej Tenkova</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="images/1693487.png">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v21.0"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="istorija tenkova, sta je tenk,drugi svetski rat">
+        <meta name="keywords" content="Tenk,tenkovi,Muzej Tenkova,ratni tenkovi,tenkova">
+        <meta property="og:title" content="Muzej Tenkova" />
+        <meta property="og:type" content="website" />
+        <meta property="og:URL" content="https://stefancirko.github.io/PROJEKATVEBKOM/" />
+        <meta property="og:image" content="https://stefancirko.github.io/PROJEKATVEBKOM/images/1693487.png" />
+        <meta property="og:description" content="Ova stranica će vam pružiti informacije od tenkovima Drugog svetskog rata ." />
     </head>
 
     <body>
@@ -25,18 +34,21 @@
             </ul>
         </div>
 
-        <img src="images/1693487.png" id="animacija">
+        <img src="images/1693487.png" id="animacija" alt="animacija">
         
         <div class="pocetna-stranica" id="paragraf" onclick="tabelaTenkova(1)" onmouseover="promenaStila(1)" onmouseout="promenaStila(2)">
-            <p>Dobro došli na stranicu "Museum of Tanks"! Ova stranica će vam pružiti informacije od tenkovima Drugog svetskog rata kao i njihove slike.
+            <p>Dobro došli na stranicu "Muzej Tenkova"! Ova stranica će vam pružiti informacije od tenkovima Drugog svetskog rata kao i njihove slike.
                 Ukoliko nas želite kontaktirati ili nam postaviti pitanje možete to učiniti na "Kontakt" stranici. Šta je tenk? Tenk je oklopno vojno vozilo na gusenicama 
                 koje služi za potporu pešadiji ili deluje samostalno. 
                 Ima glavni top velikog kalibra koji se nalazi na pokretnoj kupoli.
                 Svojim oklopom štiti posadu, a ima mogućnost kretanja po teškim terenima. Glavno je strateško i taktičko oružje u kopnenoj vojsci.
             </p> 
         </div>
-        <img src="images/tiger1.png" id="tigar1" onclick="tabelaTenkova(2)"><br>
+        <img src="images/tiger1.png" id="tigar1" onclick="tabelaTenkova(2)" alt="Na slici je prikazan Tigar tenk. Jedan od najboljih tenkova u drugom svetskom ratu."><br>
         <div class="tabela" id="tabela"></div>
+        <div class="fb-share-button" data-href="https://stefancirko.github.io/PROJEKATVEBKOM/" data-layout="button_count" data-size="large">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fstefancirko.github.io%2FPROJEKATVEBKOM%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Подели</a></div>      
+        <div class="fb-like" data-href="https://stefancirko.github.io/PROJEKATVEBKOM/" data-width="" data-layout="" data-action="" data-size="" data-share="false"></div>  
         <script src="script.js"></script>
     </body>
 </html>
